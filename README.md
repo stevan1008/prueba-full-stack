@@ -1,7 +1,7 @@
-# prueba-full-stack
+# Indicaciones
 
 
-Backend: sobre la carpeta backend
+# Backend: sobre la carpeta backend
 1) npm install
 2) npm run build
 3) npm run dev
@@ -9,7 +9,8 @@ Backend: sobre la carpeta backend
 
 
 
-Frontend: sobre la carpeta frontend
+# Frontend: sobre la carpeta frontend
+
 1)npm install
 2)ng serve
 
