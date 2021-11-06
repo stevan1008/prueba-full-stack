@@ -1,3 +1,7 @@
+# Prueba tecnica CRUD, MySQL, Angular y node
+
+_API REST con CRUD basico con busqueda de datos-_
+
 ## Indicaciones
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo._
@@ -8,7 +12,7 @@ _Que se necesita para correr la aplicación correctamente_
 
 ```
 Angular
-mysql
+MySQL
 Node
 ```
 
