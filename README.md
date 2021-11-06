@@ -1,4 +1,4 @@
-# Prueba tecnica CRUD, MySQL, Angular y node
+# Prueba tecnica CRUD: MySQL, Angular y node
 
 _API REST con CRUD basico con busqueda de datos-_
 
@@ -6,11 +6,16 @@ _API REST con CRUD basico con busqueda de datos-_
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo._
 
+```
+Importante: En backend/src/database.ts cambiar password por la contraseña que tenga asignada a MySQL, de lo contrario no funcionará la aplicación.
+```
+
 
 ### Pre-requisitos 📋
 _Que se necesita para correr la aplicación correctamente_
 
 ```
+TypeScript
 Angular
 MySQL
 Node
