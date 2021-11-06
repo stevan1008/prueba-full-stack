@@ -11,8 +11,8 @@
 
 # Frontend: sobre la carpeta frontend
 
-1)npm install
-2)ng serve
+1) npm install
+2) ng serve
 
 
 
