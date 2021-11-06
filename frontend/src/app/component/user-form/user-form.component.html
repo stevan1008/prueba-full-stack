@@ -1,0 +1,37 @@
+<br>
+
+  <div class="alert alert-info alert-dismissible fade show" role="alert">
+    <strong>¡Atención!</strong> Todos los campos son obligatorios
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="firstname">Nombre</span>
+    <input type="text" class="form-control" placeholder="Nombre" aria-describedby="firstname" [(ngModel)]="user.firstname" required>
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="lastname">Apellido</span>
+    <input type="text" class="form-control" placeholder="Apellidos" aria-describedby="lastname" [(ngModel)]="user.lastname" required>
+  </div>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="lastname">Email</span>
+    <input type="text" class="form-control" aria-describedby="email" [(ngModel)]="user.email" required>
+    <span class="input-group-text" id="email">@example.com</span>
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="control">Documento</span>
+    <input type="number" class="form-control is-valid" id="validationServer01" value="Mark" placeholder="CC/Documento" aria-describedby="control" [(ngModel)]="user.control" required>
+  </div>
+
+  <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+    <label class="form-check-label" for="validationFormCheck1">        Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label>
+    <div class="invalid-feedback">Tiene que estár de acuerdo antes de Enviar</div>
+  </div>
+
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-primary me-md-2" type="button" (click)="edit ? editUser() : saveNewUser()">Enviar</button>
+  </div>
